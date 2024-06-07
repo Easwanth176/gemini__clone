@@ -5,7 +5,7 @@ const {
   } = require("@google/generative-ai");
   
   //const apiKey = process.env.GEMINI_API_KEY;
-  const apiKey ="AIzaSyDgtQhe2mm_KxSjKrI5A0zsrJ9LGS_NeN8";
+  const apiKey ="";
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
